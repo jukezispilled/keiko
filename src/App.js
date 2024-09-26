@@ -9,11 +9,11 @@ const BlingText = ({ text }) => (
       <motion.span
         key={index}
         className="inline-block bling-letter"
-        initial={{ opacity: 0, scale: 0.5 }}
+        initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{
-          duration: 0.5,
-          delay: index * 0.1,
+          duration: 0.8,
+          delay: index * 0.08,
         }}
       >
         {char}
@@ -32,17 +32,16 @@ function App() {
         <style>
           {`
             @keyframes bling {
-              0%, 100% { color: #FFD700; text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700; }
-              25% { color: #FFF8DC; text-shadow: 0 0 15px #FFD700, 0 0 25px #FFD700, 0 0 35px #FFD700; }
-              50% { color: #FFFACD; text-shadow: 0 0 20px #FFD700, 0 0 30px #FFD700, 0 0 40px #FFD700; }
-              75% { color: #FFFFE0; text-shadow: 0 0 25px #FFD700, 0 0 35px #FFD700, 0 0 45px #FFD700; }
+              0%, 100% { color: #FFD700; text-shadow: 0 0 5px #FFD700; }
+              50% { color: #FFFACD; text-shadow: 0 0 10px #FFD700; }
             }
             .bling-letter {
-              animation: bling 4s infinite;
-              filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.7));
+              animation: bling 6s infinite;
+              filter: drop-shadow(0 0 3px rgba(255, 215, 0, 0.5));
             }
           `}
         </style>
+
         <div className='absolute top-3 text-center text-xs font-custom text-yellow-300'>CA: updating...</div>
 
         <div className='absolute bottom-3 right-3 flex items-center z-[50]'>
@@ -57,6 +56,7 @@ function App() {
               </svg>
             </a>
         </div>
+        
         <BlingText text="keiko" />
         <p className='font-custom text-yellow-300 text-sm'>star of free willy</p>
         <h2 className="text-2xl z-10 font-custom text-yellow-300">"lucky child"</h2>
