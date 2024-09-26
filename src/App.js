@@ -58,11 +58,12 @@ function App() {
             </a>
         </div>
         <BlingText text="keiko" />
+        <p className='font-custom text-yellow-300 text-sm'>star of free willy</p>
         <h2 className="text-2xl z-10 font-custom text-yellow-300">"lucky child"</h2>
         <motion.img 
           src="/k.png" 
           alt="Keiko"
-          className="w-[50%] md:w-[35%] z-0"
+          className="w-[50%] md:w-[35%] z-0 mt-5"
           animate={{
             y: [0, -20, 0],
           }}
