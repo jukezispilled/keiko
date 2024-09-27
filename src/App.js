@@ -27,11 +27,12 @@ function App() {
     <div className="min-h-screen flex flex-col">
       <div className="flex-grow relative flex flex-col justify-center items-center bg-cover bg-center min-h-screen">
         
-        {/* Background video */}
+        {/* Updated Background video with playsinline attribute */}
         <video 
           autoPlay 
           muted 
           loop 
+          playsInline
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
         >
           <source src="/vid.mp4" type="video/mp4" />
