@@ -24,7 +24,7 @@ const BlingText = ({ text }) => (
 
 function App() {
   return (
-    <><div className='text-center text-xs font-custom text-yellow-300 z-10 bg-black py-1'>CA: updating...</div><div className="min-h-screen flex flex-col">
+    <><div className='text-center text-xs font-custom text-yellow-300 z-10 bg-black py-1'>CA: CCzgKt91Uin4VZ27XogMqtVM9chF4mF1wTYAV8TBpump</div><div className="min-h-screen flex flex-col">
       <div
         className="flex-grow relative flex flex-col justify-center items-center bg-cover bg-center min-h-screen"
         style={{ backgroundImage: 'url(/b.png)' }}
