@@ -87,10 +87,10 @@ function App() {
         <Marquee>$Keiko $Keiko $Keiko $Keiko $Keiko $Keiko $Keiko $Keiko $Keiko $Keiko $Keiko $Keiko $Keiko $Keiko $Keiko $Keiko $Keiko $Keiko $Keiko $Keiko&nbsp;</Marquee>
       </div>
 
-      <div className="w-full bg-black p-8">
+      <div className="w-full bg-black p-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold mb-4 text-center font-custom text-yellow-300">Keiko's Story</h2>
-          <div className="bg-gray-100 p-4 rounded-lg shadow-md">
+          <div className="bg-gray-100 rounded-lg shadow-md">
             <iframe
               src="https://www.worldanimalprotection.us/latest/blogs/story-keiko-first-captive-orca-returned-wild/"
               title="Keiko's Story"
