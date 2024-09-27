@@ -75,7 +75,7 @@ function App() {
         <motion.img 
           src="/k.png" 
           alt="Keiko"
-          className="w-[50%] md:w-[35%] mt-5 z-10"
+          className="w-[50%] md:w-[35%] mt-5 z-10 md:max-w-[350px]"
           animate={{ y: [0, -20, 0] }}
           transition={{
             duration: 4,
